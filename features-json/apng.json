@@ -5,20 +5,28 @@
   "status":"unoff",
   "links":[
     {
-      "url":"https://chrome.google.com/webstore/detail/ehkepjiconegkhpodgoaeamnpckdbblp",
-      "title":"Chrome extension providing support"
+      "url":"http://en.wikipedia.org/wiki/APNG",
+      "title":"Wikipedia"
     },
     {
       "url":"https://github.com/davidmz/apng-canvas",
       "title":"Polyfill using canvas"
     },
     {
-      "url":"http://www.truekolor.net/learn-how-to-create-an-animated-png/",
-      "title":"APNG tutorial"
+      "url":"https://chrome.google.com/webstore/detail/ehkepjiconegkhpodgoaeamnpckdbblp",
+      "title":"Chrome extension providing support"
     },
     {
-      "url":"http://en.wikipedia.org/wiki/APNG",
-      "title":"Wikipedia"
+      "url":"https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6513393-apng-animated-png-images-support-firefox-and-sa",
+      "title":"Microsoft Edge feature request on UserVoice"
+    },
+    {
+      "url":"https://addons.opera.com/en/extensions/details/apng/?display=en",
+      "title":"Opera extension providing support"
+    },
+    {
+      "url":"https://code.google.com/p/chromium/issues/detail?id=437662",
+      "title":"Chromium issue"
     }
   ],
   "bugs":[
@@ -36,6 +44,11 @@
       "9":"n",
       "10":"n",
       "11":"n"
+    },
+    "edge":{
+      "12":"n",
+      "13":"n",
+      "14":"u"
     },
     "firefox":{
       "2":"n",
@@ -65,7 +78,29 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y"
     },
     "chrome":{
       "4":"n",
@@ -97,7 +132,28 @@
       "30":"n",
       "31":"n",
       "32":"n",
-      "33":"n"
+      "33":"n",
+      "34":"n",
+      "35":"n",
+      "36":"n",
+      "37":"n",
+      "38":"n",
+      "39":"n",
+      "40":"n",
+      "41":"n",
+      "42":"n",
+      "43":"n",
+      "44":"n",
+      "45":"n",
+      "46":"n",
+      "47":"n",
+      "48":"n",
+      "49":"n",
+      "50":"n",
+      "51":"n",
+      "52":"n",
+      "53":"n",
+      "54":"n"
     },
     "safari":{
       "3.1":"n",
@@ -107,7 +163,12 @@
       "5.1":"n",
       "6":"n",
       "6.1":"n",
-      "7":"n"
+      "7":"n",
+      "7.1":"n",
+      "8":"y",
+      "9":"y",
+      "9.1":"y",
+      "TP":"y"
     },
     "opera":{
       "9":"n",
@@ -124,7 +185,28 @@
       "15":"n",
       "16":"n",
       "17":"n",
-      "18":"n"
+      "18":"n",
+      "19":"n",
+      "20":"n",
+      "21":"n",
+      "22":"n",
+      "23":"n",
+      "24":"n",
+      "25":"n",
+      "26":"n",
+      "27":"n",
+      "28":"n",
+      "29":"n",
+      "30":"n",
+      "31":"n",
+      "32":"n",
+      "33":"n",
+      "34":"n",
+      "35":"n",
+      "36":"n",
+      "37":"n",
+      "38":"n",
+      "39":"n"
     },
     "ios_saf":{
       "3.2":"n",
@@ -132,10 +214,14 @@
       "4.2-4.3":"n",
       "5.0-5.1":"n",
       "6.0-6.1":"n",
-      "7.0":"n"
+      "7.0-7.1":"n",
+      "8":"y",
+      "8.1-8.4":"y",
+      "9.0-9.2":"y",
+      "9.3":"y"
     },
     "op_mini":{
-      "5.0-7.0":"n"
+      "5.0-8.0":"n"
     },
     "android":{
       "2.1":"n",
@@ -145,7 +231,9 @@
       "4":"n",
       "4.1":"n",
       "4.2-4.3":"n",
-      "4.4":"n"
+      "4.4":"n",
+      "4.4.3-4.4.4":"n",
+      "50":"n"
     },
     "bb":{
       "7":"n",
@@ -158,23 +246,34 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "0":"n"
+      "36":"n"
     },
     "and_chr":{
-      "0":"n"
+      "50":"n"
     },
     "and_ff":{
-      "0":"y"
+      "46":"y"
     },
     "ie_mob":{
-      "10":"n"
+      "10":"n",
+      "11":"n"
+    },
+    "and_uc":{
+      "9.9":"n"
     }
   },
   "notes":"Where support for APNG is missing, only the first frame is displayed",
-  "usage_perc_y":16.19,
+  "notes_by_num":{
+    
+  },
+  "usage_perc_y":18.61,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
   "keywords":"",
+  "ie_id":"",
+  "chrome_id":"",
+  "firefox_id":"",
+  "webkit_id":"",
   "shown":true
 }

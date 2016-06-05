@@ -1,30 +1,27 @@
 {
   "title":"contenteditable attribute (basic support)",
-  "description":"Method of making any HTML element editable",
-  "spec":"http://www.w3.org/TR/html/editing.html#contenteditable",
-  "status":"cr",
+  "description":"Method of making any HTML element editable.",
+  "spec":"https://html.spec.whatwg.org/multipage/interaction.html#contenteditable",
+  "status":"ls",
   "links":[
+    {
+      "url":"http://html5demos.com/contenteditable",
+      "title":"Demo page"
+    },
+    {
+      "url":"https://blog.whatwg.org/the-road-to-html-5-contenteditable",
+      "title":"WHATWG blog post"
+    },
     {
       "url":"http://accessgarage.wordpress.com/2009/05/08/how-to-hack-your-app-to-make-contenteditable-work/",
       "title":"Blog post on usage problems"
     },
     {
-      "url":"http://blog.whatwg.org/the-road-to-html-5-contenteditable",
-      "title":"WHATWG blog post"
-    },
-    {
       "url":"http://docs.webplatform.org/wiki/html/attributes/contentEditable",
       "title":"WebPlatform Docs"
-    },
-    {
-      "url":"http://html5demos.com/contenteditable",
-      "title":"Demo page"
     }
   ],
   "bugs":[
-    {
-      "description":"In Chromium/Chrome contenteditable cannot be edited when nested into draggable (https://code.google.com/p/chromium/issues/detail?id=170139). Still not fixed in Chrome version 26.0.1384.2."
-    },
     {
       "description":"In Firefox when clicking on contenteditable nested into draggable, cursor is always positioned to the start of editable text. Still not fixed in version 18.0.1."
     },
@@ -44,6 +41,11 @@
       "9":"y",
       "10":"y",
       "11":"y"
+    },
+    "edge":{
+      "12":"y",
+      "13":"y",
+      "14":"y"
     },
     "firefox":{
       "2":"n",
@@ -73,7 +75,29 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y"
     },
     "chrome":{
       "4":"y",
@@ -105,7 +129,28 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y",
+      "50":"y",
+      "51":"y",
+      "52":"y",
+      "53":"y",
+      "54":"y"
     },
     "safari":{
       "3.1":"y",
@@ -115,7 +160,12 @@
       "5.1":"y",
       "6":"y",
       "6.1":"y",
-      "7":"y"
+      "7":"y",
+      "7.1":"y",
+      "8":"y",
+      "9":"y",
+      "9.1":"y",
+      "TP":"y"
     },
     "opera":{
       "9":"y",
@@ -132,7 +182,28 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y",
+      "21":"y",
+      "22":"y",
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -140,10 +211,14 @@
       "4.2-4.3":"n",
       "5.0-5.1":"y",
       "6.0-6.1":"y",
-      "7.0":"y"
+      "7.0-7.1":"y",
+      "8":"y",
+      "8.1-8.4":"y",
+      "9.0-9.2":"y",
+      "9.3":"y"
     },
     "op_mini":{
-      "5.0-7.0":"n"
+      "5.0-8.0":"n"
     },
     "android":{
       "2.1":"n",
@@ -153,7 +228,9 @@
       "4":"y",
       "4.1":"y",
       "4.2-4.3":"y",
-      "4.4":"y"
+      "4.4":"y",
+      "4.4.3-4.4.4":"y",
+      "50":"y"
     },
     "bb":{
       "7":"y",
@@ -166,23 +243,34 @@
       "11.5":"n",
       "12":"n",
       "12.1":"y",
-      "0":"y"
+      "36":"y"
     },
     "and_chr":{
-      "0":"y"
+      "50":"y"
     },
     "and_ff":{
-      "0":"y"
+      "46":"y"
     },
     "ie_mob":{
-      "10":"y"
+      "10":"y",
+      "11":"y"
+    },
+    "and_uc":{
+      "9.9":"y"
     }
   },
   "notes":"This support only refers to very basic editing capability, implementations vary significantly on how certain elements can be edited.",
-  "usage_perc_y":88.37,
-  "usage_perc_a":0.09,
+  "notes_by_num":{
+    
+  },
+  "usage_perc_y":90.07,
+  "usage_perc_a":0.04,
   "ucprefix":false,
   "parent":"",
   "keywords":"",
+  "ie_id":"",
+  "chrome_id":"",
+  "firefox_id":"",
+  "webkit_id":"",
   "shown":true
 }

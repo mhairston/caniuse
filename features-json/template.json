@@ -1,8 +1,8 @@
 {
   "title":"HTML templates",
   "description":"Method of declaring a portion of reusable markup that is parsed but not rendered until cloned.",
-  "spec":"http://www.w3.org/TR/html-templates/",
-  "status":"wd",
+  "spec":"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+  "status":"ls",
   "links":[
     {
       "url":"http://www.html5rocks.com/en/tutorials/webcomponents/template/",
@@ -10,7 +10,7 @@
     },
     {
       "url":"http://polymer-project.org",
-      "title":"Polymer project (polyfill & web compontents framework)"
+      "title":"Polymer project (polyfill & web components framework)"
     }
   ],
   "bugs":[
@@ -29,6 +29,11 @@
       "9":"n",
       "10":"n",
       "11":"n"
+    },
+    "edge":{
+      "12":"n",
+      "13":"y",
+      "14":"y"
     },
     "firefox":{
       "2":"n",
@@ -58,7 +63,29 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y"
     },
     "chrome":{
       "4":"n",
@@ -90,7 +117,28 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y",
+      "50":"y",
+      "51":"y",
+      "52":"y",
+      "53":"y",
+      "54":"y"
     },
     "safari":{
       "3.1":"n",
@@ -100,7 +148,12 @@
       "5.1":"n",
       "6":"n",
       "6.1":"n",
-      "7":"n"
+      "7":"n",
+      "7.1":"y",
+      "8":"y",
+      "9":"y",
+      "9.1":"y",
+      "TP":"y"
     },
     "opera":{
       "9":"n",
@@ -117,7 +170,28 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y",
+      "21":"y",
+      "22":"y",
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -125,10 +199,14 @@
       "4.2-4.3":"n",
       "5.0-5.1":"n",
       "6.0-6.1":"n",
-      "7.0":"n"
+      "7.0-7.1":"n",
+      "8":"y",
+      "8.1-8.4":"y",
+      "9.0-9.2":"y",
+      "9.3":"y"
     },
     "op_mini":{
-      "5.0-7.0":"n"
+      "5.0-8.0":"n"
     },
     "android":{
       "2.1":"n",
@@ -138,7 +216,9 @@
       "4":"n",
       "4.1":"n",
       "4.2-4.3":"n",
-      "4.4":"y"
+      "4.4":"y",
+      "4.4.3-4.4.4":"y",
+      "50":"y"
     },
     "bb":{
       "7":"n",
@@ -151,23 +231,34 @@
       "11.5":"n",
       "12":"n",
       "12.1":"n",
-      "0":"y"
+      "36":"y"
     },
     "and_chr":{
-      "0":"y"
+      "50":"y"
     },
     "and_ff":{
-      "0":"y"
+      "46":"y"
     },
     "ie_mob":{
-      "10":"n"
+      "10":"n",
+      "11":"n"
+    },
+    "and_uc":{
+      "9.9":"n"
     }
   },
   "notes":"",
-  "usage_perc_y":45.76,
+  "notes_by_num":{
+    
+  },
+  "usage_perc_y":70.14,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
   "keywords":"web components, template",
+  "ie_id":"templateelement",
+  "chrome_id":"5207287069147136",
+  "firefox_id":"html-templates",
+  "webkit_id":"feature-template-element",
   "shown":true
 }

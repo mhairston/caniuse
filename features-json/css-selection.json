@@ -1,21 +1,21 @@
 {
   "title":"::selection CSS pseudo-element",
   "description":"The ::selection CSS pseudo-element applies rules to the portion of a document that has been highlighted (e.g., selected with the mouse or another pointing device) by the user.",
-  "spec":"https://developer.mozilla.org/en-US/docs/Web/CSS/::selection",
-  "status":"unoff",
+  "spec":"http://www.w3.org/TR/css-pseudo-4/#selectordef-selection",
+  "status":"wd",
   "links":[
-    {
-      "url":"http://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::selection",
-      "title":"WebPlatform Docs"
-    },
     {
       "url":"http://quirksmode.org/css/selectors/selection.html",
       "title":"::selection test"
+    },
+    {
+      "url":"http://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::selection",
+      "title":"WebPlatform Docs"
     }
   ],
   "bugs":[
     {
-      "description":"::selection does not work on input elements in Chrome (tested on OS X and Windows XP)"
+      "description":"In Safari `::selection` styles do not work in combination with CSS multi-column."
     }
   ],
   "categories":[
@@ -30,6 +30,11 @@
       "9":"y",
       "10":"y",
       "11":"y"
+    },
+    "edge":{
+      "12":"y",
+      "13":"y",
+      "14":"y"
     },
     "firefox":{
       "2":"y x",
@@ -59,7 +64,29 @@
       "24":"y x",
       "25":"y x",
       "26":"y x",
-      "27":"y x"
+      "27":"y x",
+      "28":"y x",
+      "29":"y x",
+      "30":"y x",
+      "31":"y x",
+      "32":"y x",
+      "33":"y x",
+      "34":"y x",
+      "35":"y x",
+      "36":"y x",
+      "37":"y x",
+      "38":"y x",
+      "39":"y x",
+      "40":"y x",
+      "41":"y x",
+      "42":"y x",
+      "43":"y x",
+      "44":"y x",
+      "45":"y x",
+      "46":"y x",
+      "47":"y x",
+      "48":"y x",
+      "49":"y x"
     },
     "chrome":{
       "4":"y",
@@ -91,7 +118,28 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y",
+      "50":"y",
+      "51":"y",
+      "52":"y",
+      "53":"y",
+      "54":"y"
     },
     "safari":{
       "3.1":"y",
@@ -101,7 +149,12 @@
       "5.1":"y",
       "6":"y",
       "6.1":"y",
-      "7":"y"
+      "7":"y",
+      "7.1":"y",
+      "8":"y",
+      "9":"y",
+      "9.1":"y",
+      "TP":"y"
     },
     "opera":{
       "9":"n",
@@ -118,7 +171,28 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y",
+      "21":"y",
+      "22":"y",
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -126,10 +200,14 @@
       "4.2-4.3":"n",
       "5.0-5.1":"n",
       "6.0-6.1":"n",
-      "7.0":"n"
+      "7.0-7.1":"n",
+      "8":"n",
+      "8.1-8.4":"n",
+      "9.0-9.2":"n",
+      "9.3":"n"
     },
     "op_mini":{
-      "5.0-7.0":"n"
+      "5.0-8.0":"n"
     },
     "android":{
       "2.1":"n",
@@ -139,11 +217,13 @@
       "4":"n",
       "4.1":"n",
       "4.2-4.3":"n",
-      "4.4":"y"
+      "4.4":"y",
+      "4.4.3-4.4.4":"y",
+      "50":"y"
     },
     "bb":{
       "7":"n",
-      "10":"n"
+      "10":"y"
     },
     "op_mob":{
       "10":"u",
@@ -152,23 +232,34 @@
       "11.5":"y",
       "12":"y",
       "12.1":"y",
-      "0":"y"
+      "36":"y"
     },
     "and_chr":{
-      "0":"y"
+      "50":"y"
     },
     "and_ff":{
-      "0":"n"
+      "46":"y x"
     },
     "ie_mob":{
-      "10":"y"
+      "10":"y",
+      "11":"y"
+    },
+    "and_uc":{
+      "9.9":"n"
     }
   },
   "notes":"",
-  "usage_perc_y":71.68,
+  "notes_by_num":{
+    
+  },
+  "usage_perc_y":69.85,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
   "keywords":"::selection,selection",
+  "ie_id":"",
+  "chrome_id":"",
+  "firefox_id":"",
+  "webkit_id":"",
   "shown":true
 }

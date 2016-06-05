@@ -1,20 +1,20 @@
 {
   "title":"async attribute for external scripts",
   "description":"The boolean async attribute on script elements allows the external JavaScript file to run when it's available, without delaying page load first.",
-  "spec":"http://www.w3.org/TR/html5/scripting-1.html#attr-script-async",
-  "status":"cr",
+  "spec":"https://html.spec.whatwg.org/multipage/scripting.html#attr-script-async",
+  "status":"ls",
   "links":[
     {
-      "url":"https://raw.github.com/phiggins42/has.js/master/detect/script.js#script-async",
-      "title":"has.js test"
+      "url":"https://developer.mozilla.org/en/HTML/Element/script#Attributes",
+      "title":"MDN article"
     },
     {
       "url":"http://ie.microsoft.com/testdrive/Performance/AsyncScripts/Default.html",
       "title":"Demo"
     },
     {
-      "url":"https://developer.mozilla.org/en/HTML/Element/script#Attributes",
-      "title":"MDN article"
+      "url":"https://raw.github.com/phiggins42/has.js/master/detect/script.js#script-async",
+      "title":"has.js test"
     }
   ],
   "bugs":[
@@ -33,6 +33,11 @@
       "9":"n",
       "10":"y",
       "11":"y"
+    },
+    "edge":{
+      "12":"y",
+      "13":"y",
+      "14":"y"
     },
     "firefox":{
       "2":"n",
@@ -62,7 +67,29 @@
       "24":"y",
       "25":"y",
       "26":"y",
-      "27":"y"
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y"
     },
     "chrome":{
       "4":"n",
@@ -94,17 +121,43 @@
       "30":"y",
       "31":"y",
       "32":"y",
-      "33":"y"
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y",
+      "40":"y",
+      "41":"y",
+      "42":"y",
+      "43":"y",
+      "44":"y",
+      "45":"y",
+      "46":"y",
+      "47":"y",
+      "48":"y",
+      "49":"y",
+      "50":"y",
+      "51":"y",
+      "52":"y",
+      "53":"y",
+      "54":"y"
     },
     "safari":{
       "3.1":"n",
       "3.2":"n",
       "4":"n",
-      "5":"a",
+      "5":"a #1",
       "5.1":"y",
       "6":"y",
       "6.1":"y",
-      "7":"y"
+      "7":"y",
+      "7.1":"y",
+      "8":"y",
+      "9":"y",
+      "9.1":"y",
+      "TP":"y"
     },
     "opera":{
       "9":"n",
@@ -121,7 +174,28 @@
       "15":"y",
       "16":"y",
       "17":"y",
-      "18":"y"
+      "18":"y",
+      "19":"y",
+      "20":"y",
+      "21":"y",
+      "22":"y",
+      "23":"y",
+      "24":"y",
+      "25":"y",
+      "26":"y",
+      "27":"y",
+      "28":"y",
+      "29":"y",
+      "30":"y",
+      "31":"y",
+      "32":"y",
+      "33":"y",
+      "34":"y",
+      "35":"y",
+      "36":"y",
+      "37":"y",
+      "38":"y",
+      "39":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -129,10 +203,14 @@
       "4.2-4.3":"n",
       "5.0-5.1":"y",
       "6.0-6.1":"y",
-      "7.0":"y"
+      "7.0-7.1":"y",
+      "8":"y",
+      "8.1-8.4":"y",
+      "9.0-9.2":"y",
+      "9.3":"y"
     },
     "op_mini":{
-      "5.0-7.0":"n"
+      "5.0-8.0":"n"
     },
     "android":{
       "2.1":"n",
@@ -142,7 +220,9 @@
       "4":"y",
       "4.1":"y",
       "4.2-4.3":"y",
-      "4.4":"y"
+      "4.4":"y",
+      "4.4.3-4.4.4":"y",
+      "50":"y"
     },
     "bb":{
       "7":"y",
@@ -155,23 +235,34 @@
       "11.5":"n",
       "12":"n",
       "12.1":"n",
-      "0":"y"
+      "36":"y"
     },
     "and_chr":{
-      "0":"y"
+      "50":"y"
     },
     "and_ff":{
-      "0":"y"
+      "46":"y"
     },
     "ie_mob":{
-      "10":"y"
+      "10":"y",
+      "11":"y"
+    },
+    "and_uc":{
+      "9.9":"y"
     }
   },
-  "notes":"Using script.async = false; to maintain execution order for dynamically-added scripts isn't supported in Safari 5.0",
-  "usage_perc_y":72.82,
-  "usage_perc_a":0.31,
+  "notes":"",
+  "notes_by_num":{
+    "1":"Using script.async = false; to maintain execution order for dynamically-added scripts isn't supported in Safari 5.0"
+  },
+  "usage_perc_y":88.63,
+  "usage_perc_a":0.06,
   "ucprefix":false,
   "parent":"",
   "keywords":"",
+  "ie_id":"",
+  "chrome_id":"",
+  "firefox_id":"",
+  "webkit_id":"",
   "shown":true
 }
